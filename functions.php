@@ -9,8 +9,6 @@ remove_action('wp_head', 'feed_links', 2);
 remove_action('wp_head', 'feed_links_extra', 3);
 //CSSを削除
 remove_action('wp_head', 'wp_print_styles', 8);
-//jQueryを削除(意味ないかも。意味あるのは下のfunction)
-//remove_action('wp_head', 'wp_print_head_scripts', 9);
 //link rel="EditURI"の削除
 remove_action('wp_head', 'rsd_link');
 //link rel="wlwmanifest"の削除
